@@ -17,7 +17,7 @@ export const Testimonials = () => {
       <Container>
         <Row>
           <h4 className="center-align">
-            <span className="teal-text">Popular</span> Places
+            Nuestros <span className="teal-text">Aceites</span> más Psopulares
           </h4>
           <Col m={4} s={12}>
             <Card
@@ -28,7 +28,7 @@ export const Testimonials = () => {
               ]}
               closeIcon={<Icon>close</Icon>}
               header={
-                <CardTitle image="https://materializecss.com/images/sample-1.jpg">
+                <CardTitle image={require("../components/img/aceite1.jpg")}>
                   Card Title
                 </CardTitle>
               }
@@ -46,7 +46,7 @@ export const Testimonials = () => {
               ]}
               closeIcon={<Icon>close</Icon>}
               header={
-                <CardTitle image="https://materializecss.com/images/sample-1.jpg">
+                <CardTitle image={require("../components/img/aceite2.jpg")}>
                   Card Title
                 </CardTitle>
               }
@@ -64,7 +64,7 @@ export const Testimonials = () => {
               ]}
               closeIcon={<Icon>close</Icon>}
               header={
-                <CardTitle image="https://materializecss.com/images/sample-1.jpg">
+                <CardTitle image={require("../components/img/aceite3.jpg")}>
                   Card Title
                 </CardTitle>
               }

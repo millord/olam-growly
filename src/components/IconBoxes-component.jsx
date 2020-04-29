@@ -17,7 +17,7 @@ export const IconBoxes = () => {
           <Col s={12} m={4}>
             <Card>
               <i className="material-icons  large teal-text">spa</i>
-              <h4>Aceites de cualquier albor</h4>
+              <h4>Aceites de cualquier álbor</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Card>
           </Col>
