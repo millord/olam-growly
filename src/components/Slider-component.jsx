@@ -11,7 +11,7 @@ export const SliderComponent = () => {
           duration: 500,
           height: 400,
           indicators: false,
-          interval: 6000,
+          interval: 2000,
         }}
       >
         <Slide image={<img alt="" src={require("./img/crop2.jpeg")} />}>
