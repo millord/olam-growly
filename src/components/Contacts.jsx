@@ -26,8 +26,8 @@ export const Contacts = () => {
             </CardPanel>
             <Collection header="Ubicación">
               <CollectionItem>Olam Growly</CollectionItem>
-              <CollectionItem>555 Beach rd, Suite 33</CollectionItem>
-              <CollectionItem>Santo Domingo DR, 55555</CollectionItem>
+              <CollectionItem>Autopista Duarte , Apt. 34</CollectionItem>
+              <CollectionItem>Santo Domingo DR, XXXXX</CollectionItem>
             </Collection>
           </Col>
           <Col m={6} s={12}>
