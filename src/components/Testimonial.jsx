@@ -17,7 +17,7 @@ export const Testimonials = () => {
       <Container>
         <Row>
           <h4 className="center-align">
-            Nuestros <span className="teal-text">Aceites</span> más Psopulares
+            Nuestros <span className="teal-text">Aceites</span> más Populares
           </h4>
           <Col m={4} s={12}>
             <Card
