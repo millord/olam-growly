@@ -18,7 +18,7 @@ export const App = () => {
       <IconBoxes />
       <Testimonials />
       <SocialMedia />
-      <Gallery />
+
       <Contacts />
       <PortFooter />
     </div>

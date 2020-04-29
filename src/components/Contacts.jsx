@@ -6,10 +6,6 @@ import {
   CardPanel,
   Row,
   Col,
-  TextInput,
-  Textarea,
-  Icon,
-  Button,
   Container,
   Collection,
   CollectionItem,
@@ -25,11 +21,10 @@ export const Contacts = () => {
               <span className="white-text">
                 <i className="material-icons medium">email</i>
                 <h5>Contactanos para ventas</h5>
-                For a simpler card with less markup, try using a card panel
-                which just has padding and a shadow effect
+                Para cualquier pedido
               </span>
             </CardPanel>
-            <Collection header="Ubicacion">
+            <Collection header="Ubicación">
               <CollectionItem>Olam Growly</CollectionItem>
               <CollectionItem>555 Beach rd, Suite 33</CollectionItem>
               <CollectionItem>Santo Domingo DR, 55555</CollectionItem>
@@ -37,28 +32,28 @@ export const Contacts = () => {
           </Col>
           <Col m={6} s={12}>
             <div class="card-panel grey lighten-3">
-              <h5>Please fill out this form</h5>
+              <h5>Envia tus sugerencias</h5>
               <div class="input-field">
-                <input type="text" placeholder="Name" id="name" />
-                <label for="name">Name</label>
+                <input type="text" placeholder="Nombre" id="nombre" />
+                <label for="nombre">Nombre</label>
               </div>
               <div class="input-field">
-                <input type="email" placeholder="Email" id="email" />
+                <input type="email" placeholder="Nombre" id="email" />
                 <label for="email">Email</label>
               </div>
               <div class="input-field">
-                <input type="text" placeholder="Phone" id="phone" />
-                <label for="phone">Phone</label>
+                <input type="text" placeholder="Telefono" id="tefono" />
+                <label for="telefono">Telefono</label>
               </div>
               <div class="input-field">
                 <textarea
                   class="materialize-textarea"
-                  placeholder="Enter Message"
+                  placeholder="Entre un mensaje"
                   id="message"
                 ></textarea>
-                <label for="message">Message</label>
+                <label for="message">Mensaje</label>
               </div>
-              <input type="submit" value="Submit" class="btn" />
+              <input type="submit" value="Enviar" class="btn" />
             </div>
           </Col>
         </Row>
